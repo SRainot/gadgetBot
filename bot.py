@@ -7,7 +7,6 @@ import config
 import os
 
 
-
 if __name__ == '__main__':
     nb.init(config)
     nb.load_plugins(os.path.join(os.path.dirname(__file__), 'gadget\plugins'), 'gadget.plugins')

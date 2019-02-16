@@ -3,8 +3,7 @@
 
 
 from . import bb
-from gadget.aio import requests
-from bs4 import BeautifulSoup
+from gadget.untils.aiorequests import Aiorequests as requests
 import nonebot as nb
 import re
 
@@ -18,13 +17,11 @@ async def crawl(session: nb.CommandSession):
             await session.finish(ret)
     await session.finish('格式:封面 av号\n例子:封面 av123456')
 
-
 async def get_pic(av) -> str:
     TARGET_URL = 'http://www.bilibili.com/video/' + av
-    response = await requests.get(TARGET_URL, headers={
+    html = await requests.get(TARGET_URL, headers={
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
     })
-    html = await response.text
     if html.find('视频去哪了呢') != -1:
         # print(html)
         return '视频已经被删除了哟~'
