@@ -12,6 +12,13 @@
 ### 剑网3系列
 1. 开服监控
 2. 金价查询
+3. 宠物查询
+4. 。。。
+
+### B站系列
+1. 开播通知
+2. 在QQ跟弹幕聊天
+3. 。。。
 
 ### 其他
 1. 抽签
@@ -27,6 +34,13 @@ CHAT_APPKEY = 'appkey'
 ```
 
 [腾讯ai开放平台]:https://ai.qq.com/
+
+
+###引用
+aio.requests源码使用的是[aki]奶茶的源码(RCNB)
+
+[aki]: https://github.com/cczu-osa/aki/tree/master/aki
+
 
 
 
