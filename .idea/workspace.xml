@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac015699-daff-4be3-9305-06433805132c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gadget/aio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gadget/aio/requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gadgetBot$websockett.coverage" NAME="websockett Coverage Results" MODIFIED="1550338952156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/gadgetBot$exam_test.coverage" NAME="exam_test Coverage Results" MODIFIED="1550129608759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/gadgetBot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1550334982250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gadgetBot$noop_chat.coverage" NAME="noop_chat Coverage Results" MODIFIED="1550332665976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gadget/plugins/other" />
@@ -35,44 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="natural_language.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/nonebot/natural_language.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aiorequests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gadget/untils/aiorequests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#38#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat_txai.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gadget/untils/chat_txai.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="e#37#50#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,14 +64,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="267">
-                <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <first_editor relative-caret-position="34">
+                <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gadget/aio/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#39#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gadget/aio/requests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#38#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_websocket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_websocket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -157,7 +159,6 @@
         <option value="$PROJECT_DIR$/test/exam_test.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/__init__.py" />
         <option value="$PROJECT_DIR$/gadget/__init__.py" />
-        <option value="$PROJECT_DIR$/gadget/aio/requests.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py" />
         <option value="$PROJECT_DIR$/gadget/aio/aiorequests.py" />
@@ -171,6 +172,9 @@
         <option value="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/other/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/websockett.py" />
+        <option value="$PROJECT_DIR$/gadget/aio/requests.py" />
+        <option value="$PROJECT_DIR$/gadget/aio/__init__.py" />
       </list>
     </option>
   </component>
@@ -183,7 +187,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="701" />
     <option name="y" value="115" />
     <option name="width" value="671" />
@@ -197,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +213,12 @@
               <item name="gadgetBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="gadgetBot" type="462c0819:PsiDirectoryNode" />
               <item name="gadget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gadgetBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gadgetBot" type="462c0819:PsiDirectoryNode" />
+              <item name="gadget" type="462c0819:PsiDirectoryNode" />
+              <item name="aio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gadgetBot" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +255,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chat_txai">
+  <component name="RunManager" selected="Python.websockett">
     <configuration name="aiorequests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gadgetBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,25 +341,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="exam_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gadgetBot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/exam_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="noop_chat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gadgetBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -369,20 +360,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="websockett" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gadgetBot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/websockett.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.bot" />
-      <item itemvalue="Python.exam_test" />
       <item itemvalue="Python.noop_chat" />
       <item itemvalue="Python.aiorequests" />
       <item itemvalue="Python.chat_txai" />
+      <item itemvalue="Python.websockett" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.websockett" />
         <item itemvalue="Python.bot" />
         <item itemvalue="Python.chat_txai" />
         <item itemvalue="Python.noop_chat" />
         <item itemvalue="Python.aiorequests" />
-        <item itemvalue="Python.exam_test" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +420,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32994923" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4890017" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -438,28 +448,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/bilibili/get_cover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/untils/requests.py" />
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -682,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#38#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#37#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,6 +728,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_websocket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/websockett.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -754,10 +750,30 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="267">
-            <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <first_editor relative-caret-position="34">
+            <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/aio/requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/aio/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#39#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
