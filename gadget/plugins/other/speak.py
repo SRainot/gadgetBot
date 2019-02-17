@@ -30,5 +30,4 @@ async def _(session: rcnb.NLPSession):
             speak_type = msg_filter[1]
         else:
             speak_type = None
-        print('返回')
         return rcnb.IntentCommand(90.0, ('other', 'speak'), {'text': msg_filter[0][1:], 'type': speak_type})
