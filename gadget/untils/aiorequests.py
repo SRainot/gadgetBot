@@ -2,7 +2,7 @@
 # Author:w k
 
 from aiohttp import ClientSession
-import json
+import json as jjson
 
 
 class Aiorequests(object):
@@ -14,7 +14,7 @@ class Aiorequests(object):
         async with ClientSession(headers=headers) as session:
             async with session.get(url, params=params, **kwargs) as response:
                 try:
-                    return json.loads(await response.text())
+                    return jjson.loads(await response.text())
                 except:
                     return await response.text()
 
@@ -23,8 +23,8 @@ class Aiorequests(object):
         async with ClientSession(headers=headers) as session:
             async with session.post(url, data=data, json=json, **kwargs) as response:
                 try:
-                    return json.loads(await response.text())
-                except:
+                    return jjson.loads(await response.text())
+                except Exception as E:
                     return await response.text()
 
 
