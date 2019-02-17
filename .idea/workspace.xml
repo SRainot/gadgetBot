@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac015699-daff-4be3-9305-06433805132c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gadget/aio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gadget/aio/requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gadget/aio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/aio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gadgetBot$websockett.coverage" NAME="websockett Coverage Results" MODIFIED="1550338952156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/gadgetBot$exam_test.coverage" NAME="exam_test Coverage Results" MODIFIED="1550129608759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/gadgetBot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1550334982250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gadgetBot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1550381855474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gadgetBot$noop_chat.coverage" NAME="noop_chat Coverage Results" MODIFIED="1550332665976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gadget/plugins/other" />
     <SUITE FILE_PATH="coverage/gadgetBot$test.coverage" NAME="test Coverage Results" MODIFIED="1548783927497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gadgetBot$chat_txai.coverage" NAME="chat_txai Coverage Results" MODIFIED="1550333314315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gadget/untils" />
@@ -25,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="noop_chat.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="noop_chat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gadget/plugins/other/noop_chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gadget/aio/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#39#53#0" expanded="true" />
               </folding>
@@ -169,12 +168,12 @@
         <option value="$PROJECT_DIR$/gadget/untils/chat_ai.py" />
         <option value="$PROJECT_DIR$/gadget/untils/chat_txai.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/other/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/websockett.py" />
         <option value="$PROJECT_DIR$/gadget/aio/requests.py" />
         <option value="$PROJECT_DIR$/gadget/aio/__init__.py" />
+        <option value="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" />
       </list>
     </option>
   </component>
@@ -187,7 +186,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="701" />
     <option name="y" value="115" />
     <option name="width" value="671" />
@@ -283,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.websockett">
+  <component name="RunManager" selected="Python.bot">
     <configuration name="aiorequests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gadgetBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,8 +387,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.websockett" />
         <item itemvalue="Python.bot" />
+        <item itemvalue="Python.websockett" />
         <item itemvalue="Python.chat_txai" />
         <item itemvalue="Python.noop_chat" />
         <item itemvalue="Python.aiorequests" />
@@ -418,9 +417,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32994923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4890017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4890017" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -677,6 +676,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,16 +698,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gadget/plugins/other/sign.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/noop_chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gadget/plugins/other/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,10 +761,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gadget/aio/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#39#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/noop_chat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
