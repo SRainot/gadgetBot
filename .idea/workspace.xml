@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac015699-daff-4be3-9305-06433805132c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gadget/aio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/aio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gadget/plugins/other/speak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gadget/plugins/jx3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/plugins/jx3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gadget/plugins/jx3/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/plugins/jx3/exam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gadget/plugins/other/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/plugins/other/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +32,11 @@
       <file leaf-file-name="noop_chat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gadget/plugins/other/noop_chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="272">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/gadget/plugins/other/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -57,8 +53,20 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/exam.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="e#38#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,10 +75,31 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <first_editor relative-caret-position="288">
+                <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gadget/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speak.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gadget/plugins/other/speak.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +116,11 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sign.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gadget/plugins/other/sign.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="requests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gadget/aio/requests.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,29 +129,6 @@
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_websocket.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_websocket.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gadget/plugins/other/sign.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/nonebot/command/group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -153,26 +164,27 @@
         <option value="$PROJECT_DIR$/gadget/plugins/jx3.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/bilibili/__init__.py" />
         <option value="$PROJECT_DIR$/bot.py" />
-        <option value="$PROJECT_DIR$/gadget/plugins/jx3/__init__.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/other/sign.py" />
         <option value="$PROJECT_DIR$/test/exam_test.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/__init__.py" />
-        <option value="$PROJECT_DIR$/gadget/__init__.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py" />
         <option value="$PROJECT_DIR$/gadget/aio/aiorequests.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/bilibili/get_cover.py" />
         <option value="$PROJECT_DIR$/gadget/untils/__init__.py" />
-        <option value="$PROJECT_DIR$/gadget/plugins/jx3/exam.py" />
         <option value="$PROJECT_DIR$/gadget/untils/aiorequests.py" />
         <option value="$PROJECT_DIR$/gadget/untils/chat_ai.py" />
         <option value="$PROJECT_DIR$/gadget/untils/chat_txai.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/gadget/plugins/other/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/websockett.py" />
         <option value="$PROJECT_DIR$/gadget/aio/requests.py" />
         <option value="$PROJECT_DIR$/gadget/aio/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/gadget/__init__.py" />
+        <option value="$PROJECT_DIR$/gadget/plugins/other/speak.py" />
+        <option value="$PROJECT_DIR$/gadget/plugins/jx3/__init__.py" />
+        <option value="$PROJECT_DIR$/gadget/plugins/jx3/exam.py" />
+        <option value="$PROJECT_DIR$/gadget/plugins/other/__init__.py" />
         <option value="$PROJECT_DIR$/gadget/plugins/other/noop_chat.py" />
       </list>
     </option>
@@ -186,7 +198,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="701" />
     <option name="y" value="115" />
     <option name="width" value="671" />
@@ -244,11 +256,6 @@
               <item name="gadgetBot" type="462c0819:PsiDirectoryNode" />
               <item name="gadget" type="462c0819:PsiDirectoryNode" />
               <item name="untils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gadgetBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gadgetBot" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,9 +424,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32994923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4890017" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11336718" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -447,14 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -648,27 +647,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gadget/untils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/exam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gadget/untils/aiorequests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,23 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/sign.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -742,10 +713,27 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <first_editor relative-caret-position="288">
+            <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/speak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,10 +757,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/jx3/exam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/sign.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gadget/plugins/other/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gadget/plugins/other/noop_chat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="272">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>

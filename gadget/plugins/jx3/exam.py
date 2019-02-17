@@ -3,11 +3,11 @@
 
 from . import jx3
 from gadget.untils.aiorequests import Aiorequests as requests
-import nonebot as nb
+import nonebot as rcnb
 
 
 @jx3.command('exam', aliases=('科举',))
-async def _(session: nb.CommandSession):
+async def _(session: rcnb.CommandSession):
     # 使用茗衣题库
     # url  https://jx3.derzh.com/exam/?m=1&q=%E9%9D%92%E5%B2%A9&csrf=
     # methon get

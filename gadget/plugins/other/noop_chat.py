@@ -4,17 +4,17 @@
 
 from . import other
 from gadget.untils.chat_txai import Chat
-from nonebot import CommandSession, NLPSession, on_natural_language, IntentCommand, on_command
+import nonebot as rcnb
 
 
 @other.command('chat')
-async def _(session: CommandSession):
+async def _(session: rcnb.CommandSession):
     msg = session.get_optional('msg')
     report = await Chat.request(msg)
     await session.finish(report)
     return
 
 
-@on_natural_language()
-async def _(session: NLPSession):
-    return IntentCommand(60.0, ('other', 'chat'), {'msg': session.msg_text})
+@rcnb.on_natural_language()
+async def _(session: rcnb.NLPSession):
+    return rcnb.IntentCommand(60.0, ('other', 'chat'), {'msg': session.msg_text})

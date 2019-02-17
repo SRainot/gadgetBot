@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # Author:w k
 
-import nonebot as nb
+import nonebot as rcnb
 
 __plugin_name = 'Jx3'
 
-jx3 = nb.CommandGroup('Jx3_game', only_to_me=False)
+jx3 = rcnb.CommandGroup('Jx3_game', only_to_me=False)
 from . import exam
