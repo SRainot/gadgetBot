@@ -26,21 +26,32 @@
 2. 签到
 3. 。。。
 
-### 智能闲聊说明
-使用的是[腾讯ai开放平台]的接口,使用QQ登陆创建一个应用，接入智能闲聊能力，拿到的appid跟appkey填入config.py.
-代码原有的不知道啥时候会过期还是自己申请一个比较好
-```bash 
-CHAT_APPID = 'appid'
-CHAT_APPKEY = 'appkey'
-```
-
-[腾讯ai开放平台]:https://ai.qq.com/
-
-
 ###引用
 aio.requests源码使用的是[aki]奶茶的源码(RCNB)
 
 [aki]: https://github.com/cczu-osa/aki/tree/master/aki
+
+
+
+#### 聊天跟语音合成说明
+智能聊天使用的是[腾讯ai开放平台]的接口,使用QQ登陆创建一个应用，接入智能闲聊能力，拿到的appid跟appkey填入config.py.
+代码原有的不知道啥时候会过期还是自己申请一个比较好
+```bash 
+TX_CHAT_APPID = 'appid'
+TX_CHAT_APPKEY = 'appkey'
+```
+语音合成使用的是百度语音合成的接口，还是跟上面一样在config.py里面配置
+```bash
+BD_CLIENT_ID = '4LI50CEmqn4h4mNqfjwicu04'
+BD_CLIENT_SECRET = 'PHBGwYHmWiz9Ce0eBV7jygGrUyKpSetn'
+BD_TOKEN = '' #会通过ID跟SECRET自动获取这个不需要填写（）
+```
+
+#### 功能使用
+
+[腾讯ai开放平台]:https://ai.qq.com/
+
+
 
 
 

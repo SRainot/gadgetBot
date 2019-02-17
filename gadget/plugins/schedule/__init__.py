@@ -9,13 +9,12 @@ from gadget.untils.aiorequests import Aiorequests as requests
 @rcnb.scheduler.scheduled_job('interval', days=10)
 async def get_bd_token():
     # 获取百度语音合成的token
-    global BD_SPEAK_TOKEN
     bot = rcnb.get_bot()
     token_url = 'https://aip.baidubce.com/oauth/2.0/token'
     data = {
             'grant_type': 'client_credentials',
-            'client_id': bot.config.CLIENT_ID,
-            'client_secret': bot.config.CLIENT_SECRET,
+            'client_id': bot.config.BD_CLIENT_ID,
+            'client_secret': bot.config.BD_CLIENT_SECRET,
     }
     headers = {
             'Content-Type': 'application/json; charset=UTF-8'

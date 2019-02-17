@@ -11,8 +11,8 @@ from random import randint
 
 class Chat(object):
     target_url = 'https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat'
-    app_id = nb.get_bot().config.CHAT_APPID
-    app_key = nb.get_bot().config.CHAT_APPKEY
+    app_id = nb.get_bot().config.TX_CHAT_APPID
+    app_key = nb.get_bot().config.TX_CHAT_APPKEY
     nonce_str_example = 'fa577ce340859f9fe'
     ct = lambda: time.time()
 
