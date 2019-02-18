@@ -26,10 +26,12 @@ async def tts(text: str, s_type=None):
             data['per'] = 4
     else:
         data['per'] = random.choice([3, 4])
-    # 可调节音调语素音量等等。。，以后更新
+    # 可调节音调语素音量等等。。以后更新
     response = await requests.post(target_url, data=data)
     try:
         mp3 = b64encode(await response.content)
         return str(mp3, encoding='utf-8')
     except:
         return None
+
+

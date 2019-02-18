@@ -9,6 +9,7 @@
 from . import other
 import nonebot as rcnb
 from gadget.untils.bdtts import tts
+from nonebot.permission import GROUP
 
 
 @other.command('speak')
@@ -31,3 +32,5 @@ async def _(session: rcnb.NLPSession):
         else:
             speak_type = None
         return rcnb.IntentCommand(90.0, ('other', 'speak'), {'text': msg_filter[0][1:], 'type': speak_type})
+
+

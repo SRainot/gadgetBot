@@ -2,14 +2,14 @@
 # Author:w k
 
 
-from . import bb
+from . import Bilibili
 from gadget.untils.aiorequests import Aiorequests as requests
-import nonebot as nb
+import nonebot as rcnb
 import re
 
 
-@bb.command('get_cover', aliases=['封面'])
-async def crawl(session: nb.CommandSession):
+@Bilibili.command('get_cover', aliases=['封面'])
+async def crawl(session: rcnb.CommandSession):
     target_av = session.current_arg_text
     if target_av.startswith('av'):
         if target_av[2:].isdigit():
