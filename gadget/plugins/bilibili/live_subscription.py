@@ -8,7 +8,7 @@ from nonebot import permission
 from gadget.untils.fs import get_data_folder
 import pickle
 from gadget.plugins.schedule import get_live_status
-from nonebot.helpers import context_id
+from nonebot.helpers import context_id as rcnbid
 
 rcnbot = rcnb.get_bot().config
 
@@ -43,7 +43,7 @@ async def _(session: rcnb.NLPSession):
 @Bilibili.command('subscription')
 async def _(session: rcnb.CommandSession):
     room = session.get_optional('roomid')
-    cid = context_id(session.ctx)
+    cid = rcnbid(session.ctx)
     if await get_live_status(room) == '房间不存在':
         await session.finish(f'你订阅的房间{room}是不存在的哦！')
         return
@@ -79,7 +79,11 @@ async def save_subscription_info(roomid, cid):
 
 async def read_subscription_info(user=None):
     filename = get_data_folder('Bilibili', 'subscription.pkl')
-    all_info = pickle.load(open(filename, 'rb'), encoding='utf-8')
+    try:
+        all_info = pickle.load(open(filename, 'rb'), encoding='utf-8')
+    except:
+        # 首次运行读取没数据会报错
+        all_info = []
     rcnbot.BILIBILI_SUBSCRIPTION_INFO = all_info
     if user:
         tmp_list = []
