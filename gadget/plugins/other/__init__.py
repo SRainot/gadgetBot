@@ -12,3 +12,4 @@ from . import noop_chat
 from . import speak
 from . import crawl
 from . import like
+from . import brush_ban

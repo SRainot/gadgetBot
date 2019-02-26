@@ -34,3 +34,7 @@ BD_TOKEN = ''
 ###DIFFBOT
 ##这个api因为是要自己去申请的所以就不提供了
 DIFFBOT_TOKEN = ''
+
+###刷屏禁言
+REMOVE_DELAY = 5
+MAX_COUNT = 7
