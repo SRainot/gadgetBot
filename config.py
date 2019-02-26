@@ -30,3 +30,7 @@ BD_CLIENT_ID = '4LI50CEmqn4h4mNqfjwicu04'
 BD_CLIENT_SECRET = 'PHBGwYHmWiz9Ce0eBV7jygGrUyKpSetn'
 BD_TOKEN = ''
 ###
+
+###DIFFBOT
+##这个api因为是要自己去申请的所以就不提供了
+DIFFBOT_TOKEN = ''

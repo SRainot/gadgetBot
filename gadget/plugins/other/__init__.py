@@ -10,3 +10,5 @@ other = rcnb.CommandGroup('other', only_to_me=False)
 from . import sign
 from . import noop_chat
 from . import speak
+from . import crawl
+from . import like
